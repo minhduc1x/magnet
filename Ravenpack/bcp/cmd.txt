@@ -1,0 +1,28 @@
+bcp tempdb.dbo.Ravenpack_TEMP in "C:\Users\tranda\Downloads\temp\data.csv" -c -r "C:\Users\tranda\Downloads\temp\format.fmt" -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+
+bcp tempdb.dbo.Ravenpack_TEMP in "C:\Users\tranda\Downloads\temp\data.csv" -c -r\r -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+bcp tempdb.dbo.Ravenpack_TEMP in "C:\Users\tranda\Downloads\temp\data.csv" -c -r\r "C:\Users\tranda\Downloads\temp\format.fmt" -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+---This works: 
+bcp tempdb.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp\data.csv -f C:\Users\tranda\Downloads\temp\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+---This should work 
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\2017-07.csv -f C:\Users\tranda\Downloads\Ravenpack-c.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+bcp tempdb.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\2017-07.csv -f C:\Users\tranda\Downloads\temp\format0.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+
+bcp tempdb.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\input\2017-07.csv -f C:\Users\tranda\Downloads\input\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+
+bcp tempdb.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp\data.csv -f C:\Users\tranda\Downloads\temp\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+
+C:\Python27\python.exe C:\Users\tranda\Downloads\python\script.py <C:\Users\tranda\Downloads\python\2017-01.csv> output.tsv
+>> this works for .tsv
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp1\2017-01.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+
+
+$ sed 's/,/\t/' data.csv > data.tsv

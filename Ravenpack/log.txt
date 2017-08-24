@@ -1,0 +1,67 @@
+----2017
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp1\2017-01.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp1\2017-02.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\temp1\2017-03.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2017-07.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2017-06.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2017-05.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext -b 10000
+
+----2016
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-01.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-02.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-03.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-04.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-05.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-06.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-07.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-08.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-09.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-10.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-11.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack_TEMP IN C:\Users\tranda\Downloads\python\2016-12.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+----2015 ----
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-01.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-02.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-03.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-04.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-05.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-06.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-07.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-08.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-09.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-10.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-11.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2015\2015-12.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+----2014
+bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\temp1\2014-01.tsv -f C:\Users\tranda\Downloads\temp1\format1.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-02.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-03.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-04.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-05.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-06.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-07.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-08.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-09.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-10.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-11.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2014\2014-12.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+-----2013 (batch)
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-01.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-02.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-03.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-04.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-05.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-06.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-07.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-08.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-09.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-10.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-11.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2013\2013-12.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+
+-----2017 (batch) 
+bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2017\2017-01.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2017\2017-02.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2017\2017-03.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2017\2017-04.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+
+-----2016 (batch)
+bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-01.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-02.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-03.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-04.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-05.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-06.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-07.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-08.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-09.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-10.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-11.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext &&  bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\2016\2016-12.tsv -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext 
+
+-----2012 (batch)
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-01.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-02.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-03.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-04.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-05.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-06.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-07.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-08.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-09.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-10.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-11.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN U:\Companies\2012\2012-12.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+
+-----2011 (batch)

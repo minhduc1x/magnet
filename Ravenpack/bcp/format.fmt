@@ -1,0 +1,9 @@
+11.0
+6
+1       SQLCHAR             0       0      ","      1     TIMESTAMP_UTC              	SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR             0       0      ","      2     RP_STORY_ID              		SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR             0       0      ","      3     RP_ENTITY_ID             		SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             0       0      ","   	4     ENTITY_TYPE   			  	SQL_Latin1_General_CP1_CI_AS
+5       SQLCHAR             0       0      ","   	5     ENTITY_NAME   			  	SQL_Latin1_General_CP1_CI_AS
+6       SQLCHAR             0       0      "\r\n"   6     COUNTRY_CODE   			  	SQL_Latin1_General_CP1_CI_AS
+
