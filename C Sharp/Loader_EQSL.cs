@@ -55,22 +55,43 @@ namespace BacktestLoader
                 //table.Columns.Add("updateID",typeof(string));
                 //table.Columns.Add("UpdateDateTime",typeof(DateTime)); // <<< OMG
 
-                System.Data.DataColumn DateTimeCol = new System.Data.DataColumn("BacktestID", typeof(System.String));
-                DateTimeCol.DefaultValue = 2;
-                table.Columns.Add(DateTimeCol);
+                System.Data.DataColumn BacktestIDCol = new System.Data.DataColumn("BacktestID", typeof(System.String));
+                BacktestIDCol.DefaultValue = 2;
+                table.Columns.Add(BacktestIDCol);
 
+                System.Data.DataColumn QuantSubStrategyIDCol = new System.Data.DataColumn("QuantSubStrategyID", typeof(System.String));
+                QuantSubStrategyIDCol.DefaultValue = 2;
+                table.Columns.Add(QuantSubStrategyIDCol);
+
+                System.Data.DataColumn ActualFlagCol = new System.Data.DataColumn("ActualFlag", typeof(System.String));
+                ActualFlagCol.DefaultValue = 2;
+                table.Columns.Add(ActualFlagCol);
+
+                System.Data.DataColumn updateIDCol = new System.Data.DataColumn("updateID", typeof(System.String));
+                updateIDCol.DefaultValue = "daniel";
+                table.Columns.Add(updateIDCol);
+
+                //System.Data.DataColumn UpdateDateTimeCol = new System.Data.DataColumn("UpdateDateTime", typeof(System.DateTime));
+                //UpdateDateTimeCol.DefaultValue = DateTime.Now;
+                //table.Columns.Add(UpdateDateTimeCol);
 
 
                 // Bulk copy to datebase
                 using (SqlBulkCopy bulkcopy = new SqlBulkCopy(sqlConnectionString))
                 {
                     bulkcopy.DestinationTableName = "dbo.QuantBacktestDetail";
+
                     bulkcopy.ColumnMappings.Add(0, "BacktestReportDate");
                     bulkcopy.ColumnMappings.Add(1,"LMV");
                     bulkcopy.ColumnMappings.Add(2, "SMV");
-                    bulkcopy.ColumnMappings.Add(3,)
+                    // bulkcopy.ColumnMappings.Add(3, );
+                    bulkcopy.ColumnMappings.Add(4,);
 
                     bulkcopy.ColumnMappings.Add(64, "BacktestID");
+                    bulkcopy.ColumnMappings.Add(65, "QuantSubStrategyID");
+                    bulkcopy.ColumnMappings.Add(66, "ActualFlag");
+                    bulkcopy.ColumnMappings.Add(67, "updateID");
+                    // bulkcopy.ColumnMappings.Add(68, "UpdateDateTime");
 
                     bulkcopy.WriteToServer(table);
                 }
