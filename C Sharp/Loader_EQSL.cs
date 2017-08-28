@@ -22,6 +22,7 @@ namespace BacktestLoader
 
             using (OleDbConnection excelConn = new OleDbConnection(ExcelConnectionString))
             {
+
                 // Read from Ret Daily Stat sheet
                 excelConn.Open();
                 OleDbCommand sheet2 = new OleDbCommand
@@ -47,51 +48,72 @@ namespace BacktestLoader
                  * QuantSubStrategyID = 10  : EQLS, Stock Level, 0 Beta
                  */
 
-                DataTable table = new DataTable("temp");
+                DataTable table = new DataTable();
                 table.Load(reader2);
-                //table.Columns.Add("BacktestID", typeof(int));
-                //table.Columns.Add("QuantSubStrategyID", typeof(int));
-                //table.Columns.Add("ActualFlag",typeof(int));
-                //table.Columns.Add("updateID",typeof(string));
-                //table.Columns.Add("UpdateDateTime",typeof(DateTime)); // <<< OMG
 
                 System.Data.DataColumn BacktestIDCol = new System.Data.DataColumn("BacktestID", typeof(System.String));
                 BacktestIDCol.DefaultValue = 2;
                 table.Columns.Add(BacktestIDCol);
 
+                //System.Data.DataColumn QuantSubStrategyIDCol = new System.Data.DataColumn("QuantSubStrategyID", typeof(System.String));
+                //QuantSubStrategyIDCol.DefaultValue = 2;
+                //table.Columns.Add(QuantSubStrategyIDCol);
+
                 System.Data.DataColumn QuantSubStrategyIDCol = new System.Data.DataColumn("QuantSubStrategyID", typeof(System.String));
-                QuantSubStrategyIDCol.DefaultValue = 2;
+                QuantSubStrategyIDCol.DefaultValue = 3;
                 table.Columns.Add(QuantSubStrategyIDCol);
 
                 System.Data.DataColumn ActualFlagCol = new System.Data.DataColumn("ActualFlag", typeof(System.String));
-                ActualFlagCol.DefaultValue = 2;
+                ActualFlagCol.DefaultValue = 0;
                 table.Columns.Add(ActualFlagCol);
 
                 System.Data.DataColumn updateIDCol = new System.Data.DataColumn("updateID", typeof(System.String));
                 updateIDCol.DefaultValue = "daniel";
                 table.Columns.Add(updateIDCol);
 
-                //System.Data.DataColumn UpdateDateTimeCol = new System.Data.DataColumn("UpdateDateTime", typeof(System.DateTime));
-                //UpdateDateTimeCol.DefaultValue = DateTime.Now;
-                //table.Columns.Add(UpdateDateTimeCol);
+                System.Data.DataColumn UpdateDateTimeCol = new System.Data.DataColumn("UpdateDateTime", typeof(System.DateTime));
+                UpdateDateTimeCol.DefaultValue = DateTime.Now;
+                table.Columns.Add(UpdateDateTimeCol);
+
+                System.Data.DataColumn BacktestReportDateCol = new System.Data.DataColumn("BacktestReportDate", typeof(System.String));
+                BacktestReportDateCol.DefaultValue = "2017-05-31 00:00:00.0000000";
+                table.Columns.Add(BacktestReportDateCol);
 
 
                 // Bulk copy to datebase
+
+                for (int i = 1; i < 64;  i = i + 7)
+                {
+                    
+                }
                 using (SqlBulkCopy bulkcopy = new SqlBulkCopy(sqlConnectionString))
                 {
                     bulkcopy.DestinationTableName = "dbo.QuantBacktestDetail";
 
-                    bulkcopy.ColumnMappings.Add(0, "BacktestReportDate");
-                    bulkcopy.ColumnMappings.Add(1,"LMV");
-                    bulkcopy.ColumnMappings.Add(2, "SMV");
-                    // bulkcopy.ColumnMappings.Add(3, );
-                    bulkcopy.ColumnMappings.Add(4,);
+                    //bulkcopy.ColumnMappings.Add(0, "DataDate");
+                    //bulkcopy.ColumnMappings.Add(1, "LMV");
+                    //bulkcopy.ColumnMappings.Add(2, "SMV");
+                    //bulkcopy.ColumnMappings.Add(3, "ReturnGross");
+                    //bulkcopy.ColumnMappings.Add(4, "ReturnBetaHedged");
+                    //bulkcopy.ColumnMappings.Add(5, "ReturnFactorHedged");
+                    //bulkcopy.ColumnMappings.Add(6, "ReturnBarraIdio");
+                    //bulkcopy.ColumnMappings.Add(7, "NumPos");
+
+                    bulkcopy.ColumnMappings.Add(0, "DataDate");
+                    bulkcopy.ColumnMappings.Add(8, "LMV");
+                    bulkcopy.ColumnMappings.Add(9, "SMV");
+                    bulkcopy.ColumnMappings.Add(10, "ReturnGross");
+                    bulkcopy.ColumnMappings.Add(11, "ReturnBetaHedged");
+                    bulkcopy.ColumnMappings.Add(12, "ReturnFactorHedged");
+                    bulkcopy.ColumnMappings.Add(13, "ReturnBarraIdio");
+                    bulkcopy.ColumnMappings.Add(14, "NumPos");
 
                     bulkcopy.ColumnMappings.Add(64, "BacktestID");
                     bulkcopy.ColumnMappings.Add(65, "QuantSubStrategyID");
                     bulkcopy.ColumnMappings.Add(66, "ActualFlag");
-                    bulkcopy.ColumnMappings.Add(67, "updateID");
-                    // bulkcopy.ColumnMappings.Add(68, "UpdateDateTime");
+                    bulkcopy.ColumnMappings.Add(67, "UpdateID");
+                    bulkcopy.ColumnMappings.Add(68, "UpdateDatetime");
+                    bulkcopy.ColumnMappings.Add(69, "BacktestReportDate");
 
                     bulkcopy.WriteToServer(table);
                 }
