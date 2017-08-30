@@ -95,3 +95,8 @@ bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2006-07.tsv -f U:\Compan
 -----2005 (batch)
 bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-01.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-02.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-03.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-04.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-05.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext && bcp CCDB.dbo.Ravenpack IN C:\Users\tranda\Downloads\TSV\2005-06.tsv -f U:\Companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
 
+
+
+-----RELOAD
+-----2017 (batch)
+
