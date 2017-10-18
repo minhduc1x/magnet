@@ -1,0 +1,9 @@
+call C:\Users\tranda\Downloads\Loader\2013.bat
+call C:\Users\tranda\Downloads\Loader\2012.bat
+call C:\Users\tranda\Downloads\Loader\2011.bat
+call C:\Users\tranda\Downloads\Loader\2010.bat
+call C:\Users\tranda\Downloads\Loader\2009.bat
+call C:\Users\tranda\Downloads\Loader\2008.bat
+call C:\Users\tranda\Downloads\Loader\2007.bat
+call C:\Users\tranda\Downloads\Loader\2006.bat
+call C:\Users\tranda\Downloads\Loader\2005.bat

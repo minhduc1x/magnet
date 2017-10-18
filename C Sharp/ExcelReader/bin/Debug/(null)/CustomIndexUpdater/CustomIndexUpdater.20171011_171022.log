@@ -1,0 +1,2 @@
+2017 Oct 11 17:10:24 [9] ERROR - Updater finished with errors : System.Exception: Failed to parse input params
+   at ExcelReader.Program.Main(String[] args) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 31

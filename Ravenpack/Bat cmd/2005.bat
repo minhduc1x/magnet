@@ -1,0 +1,12 @@
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-12.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-11.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-10.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-09.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-08.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-07.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-06.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-05.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-04.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-03.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-02.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext
+bcp CCDB.dbo.Ravenpack IN "\\evprodfsg01\QR_Workspace\Events\Ravenpack New\Companies\RavenPackAnalytics_Companies_1.0_2005\2005-01.tsv" -f U:\companies\format.fmt -U tranda -P Ekb4Fpr3s27w79GN -S devExt\ext

@@ -1,0 +1,7 @@
+2017 Oct 11 17:09:10 [9] ERROR - Updater finished with errors : System.ArgumentNullException: Path cannot be null.
+Parameter name: path
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at ExcelReader.Program.Run(String filePath) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 61
+   at ExcelReader.Program.Main(String[] args) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 35

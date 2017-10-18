@@ -1,0 +1,4 @@
+2017 Oct 11 17:03:23 [10] ERROR - Updater finished with errors : System.NullReferenceException: Object reference not set to an instance of an object.
+   at ExcelReader.Program.ProcessObject(Object cellValue) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 99
+   at ExcelReader.Program.Run(String filePath) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 87
+   at ExcelReader.Program.Main(String[] args) in C:\Dev\Daniel\SpreadsheetParser\ExcelReader\Program.cs:line 35
